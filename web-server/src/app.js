@@ -58,6 +58,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(config.port, ()=>{
+  console.log('123');
     console.log(`服务器已经启动, 端口是: ${config.port}`);
 });
 
